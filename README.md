@@ -27,6 +27,9 @@ namespace Platinmods
             
             // EmbeddedAssembly.Load("namespace.filename");
             EmbeddedAssembly.Load("Platinmods.ARMConverter.dll"); // your Name DLL
+            
+            // Second Load
+            EmbeddedAssembly.Load("Platinmods.ARM64Converter.dll"); // your Name DLL
 
             AppDomain.CurrentDomain.AssemblyResolve += new ResolveEventHandler(CurrentDomain_AssemblyResolve);
 
