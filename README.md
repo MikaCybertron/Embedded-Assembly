@@ -26,10 +26,10 @@ namespace Platinmods
             Application.SetCompatibleTextRenderingDefault(false);
             
             // EmbeddedAssembly.Load("namespace.filename");
-            EmbeddedAssembly.Load("Platinmods.ARMConverter.dll"); // your Name DLL
+            EmbeddedAssembly.Load("Platinmods.ARMConverter.dll");
             
             // Second Load
-            EmbeddedAssembly.Load("Platinmods.ARM64Converter.dll"); // your Name DLL
+            EmbeddedAssembly.Load("Platinmods.ARM64Converter.dll");
 
             AppDomain.CurrentDomain.AssemblyResolve += new ResolveEventHandler(CurrentDomain_AssemblyResolve);
 
